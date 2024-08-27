@@ -1,0 +1,26 @@
+/* @import '~antd/dist/antd.css'; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+}
+
+html, body {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+
+.dark {
+    background-color: #0E0E0E;
+    color: white !important;
+}
+
+.light {
+    background-color: white;
+    color: black;
+}

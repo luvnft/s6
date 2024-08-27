@@ -31,7 +31,7 @@ module.exports = {
         'dark-page': '#121212',
       },
       fontFamily: {
-        baiJamjuree: ['"Bai Jamjuree"', 'sans-serif'],
+        spaceGrotesk: ['"Space Grotesk"', 'sans-serif'],
       },
       width: {
         '15': '15%',
