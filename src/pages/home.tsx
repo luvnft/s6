@@ -19,7 +19,7 @@ const Home = () => {
 
   const handleOk = () => {
     setIsModalVisible(false);
-    navigate('/product');
+    navigate('/products');
   };
 
   const handleCancel = () => {
@@ -29,7 +29,6 @@ const Home = () => {
   return (
     <section
       className="relative bg-cover bg-center h-screen"
-      style={{ backgroundImage: 'url(/path-to-your-background-image.jpg)' }}
     >
       <div data-aos="zoom-in">
         <Modal

@@ -5,6 +5,7 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 import Home from './pages/home';
 import ProductList from './pages/product-list';
+import Footer from './components/footer';
 
 const { defaultAlgorithm, darkAlgorithm } = theme;
 
@@ -75,8 +76,9 @@ const App: React.FC = () => {
     >
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/product" element={<ProductList />} />
+        <Route path="/products" element={<ProductList />} />
       </Routes>
+      <Footer />
     </ConfigProvider>
   );
 };

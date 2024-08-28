@@ -23,7 +23,7 @@ const ProductList: React.FC = () => {
   };
 
   return (
-    <div className="py-4 p-6 !font-spaceGrotesk">
+    <div className="p-6 !font-spaceGrotesk">
       <Panel />
 
       <div data-aos="fade-down">
@@ -39,7 +39,7 @@ const ProductList: React.FC = () => {
       <br />
 
       <div
-        className="grid md:grid-cols-4 lg:grid-cols-5 items-center justify-center gap-5 flex-wrap"
+        className="grid md:grid-cols-4 lg:grid-cols-5 items-center justify-center gap-5 flex-wrap mb-12"
         data-aos="fade-up"
       >
         {dummyProducts.map((product: IProduct) => (
@@ -82,7 +82,7 @@ const ProductList: React.FC = () => {
         ))}
       </div>
 
-      <Divider data-aos="fade-in" />
+      <Divider data-aos="fade-in" className="!mt-8"/>
     </div>
   );
 };
