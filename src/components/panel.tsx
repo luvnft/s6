@@ -11,7 +11,7 @@ const Panel = () => {
   return (
     <div className="absolute z-50 right-6 top-7 flex flex-col items-end justify-end">
       <div className="bg-secondary max-w-[400px] w-[100px] h-[50px] rounded-lg  flex items-center justify-between px-4 gap-2">
-        <p className="text-white font-bold text-lg">${totalPrice ?? 0}</p>
+        <p className="text-white font-bold text-lg">{totalPrice ?? 0}</p>
         <Badge
           count={totalItems ?? 0}
           onClick={() => setIsOpen((prev: boolean) => !prev)}

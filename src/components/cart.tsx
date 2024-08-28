@@ -26,9 +26,11 @@ const CartPanel: FC = () => {
               const signatureInfo = await findReference(connection, referencePublicKey);
               if (signatureInfo) {
                 clearInterval(interval);
+                localStorage.removeItem('cart');
                 setIsSuccessful(true);
                 message.success('🎉 Payment confirmed! Enjoy your products.');
                 setPayLink(null);
+                return localStorage.removeItem('cart');
               }
             } catch (error) {
               console.log('🔄 Payment not confirmed yet, retrying...');
@@ -53,7 +55,7 @@ const CartPanel: FC = () => {
 
     const url = encodeURL({
       recipient,
-      amount: totalAmount.div(1000000),
+      amount: totalAmount,
       label,
       message: messageText,
       memo,
@@ -92,7 +94,7 @@ const CartPanel: FC = () => {
                   <div>
                     <p className="text-lg font-bold">{product.name}</p>
                     <p className="text-sm">
-                      Price: ${(product.price / 100).toFixed(2)} x{' '}
+                      Price: {product.price} x{' '}
                       {cart.filter((item) => item.id === product.id).length}
                     </p>
                   </div>
@@ -149,7 +151,7 @@ const CartPanel: FC = () => {
           subTitle={
             <span className="text-gray-400 text-base">
               💸 You have successfully paid{' '}
-              <b>${(totalPrice / 100).toFixed(2)}</b> for{' '}
+              <b>{totalPrice}</b> for{' '}
               <b>{totalItems} items.</b> Thank you for shopping with us!
             </span>
           }

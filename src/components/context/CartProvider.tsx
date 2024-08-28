@@ -23,14 +23,14 @@ export const CartProvider: FC<PropsWithChildren> = ({ children }) => {
           }, 0)
         : 0;
 
-      setTotalPrice(Number(totalPrice.toFixed(2)));
+      setTotalPrice(Number(totalPrice.toFixed(6)));  // precision for SOL
     }
   }, []);
 
   const addToCart = (product: IProduct) => {
     const item = {
       ...product,
-      price: Number((product.price / 100).toFixed(2)),
+      price: product.price, 
     };
 
     const newCart = cart.length > 0 ? [...cart, item] : [item];
@@ -44,7 +44,7 @@ export const CartProvider: FC<PropsWithChildren> = ({ children }) => {
       return total + product.price;
     }, 0);
 
-    setTotalPrice(Number(totalPrice.toFixed(2)));
+    setTotalPrice(Number(totalPrice.toFixed(6)));  // precision for SOL
   };
 
   const removeFromCart = (product: IProduct) => {
@@ -63,7 +63,7 @@ export const CartProvider: FC<PropsWithChildren> = ({ children }) => {
           0,
         );
 
-        setTotalPrice(Number(totalPrice.toFixed(2)));
+        setTotalPrice(Number(totalPrice.toFixed(6))); 
       }, 1200);
 
       return newCart;

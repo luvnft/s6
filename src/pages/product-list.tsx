@@ -64,7 +64,7 @@ const ProductList: React.FC = () => {
                 {product.name}
               </Text>
               <Text className="text-lg font-bold" data-aos="fade-left">
-                ${(product.price / 100).toFixed(2)}
+                {product.price} SOL
               </Text>
               <Text className="text-sm text-gray-300" data-aos="fade-up">
                 {product.description}
