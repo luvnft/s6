@@ -1,12 +1,25 @@
 import { FC } from 'react';
 import {
   LinkedinOutlined,
-  TikTokOutlined, // Add this line
   DiscordOutlined,
   InstagramOutlined,
 } from '@ant-design/icons';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+
+// Custom TikTok icon component as an SVG
+const TikTokIcon: FC<{ style?: React.CSSProperties }> = ({ style }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    width="24px"
+    height="24px"
+    style={style}
+  >
+    <path d="M...Z" /> {/* Replace with actual TikTok SVG path data */}
+  </svg>
+);
 
 const Footer: FC = () => {
   return (
@@ -22,7 +35,7 @@ const Footer: FC = () => {
           <div className="mb-6 md:mb-0">
             <h2 className="text-xl font-bold text-white">W3W.delivery Services</h2>
             <p className="max-w-md mt-2 text-sm">
-              At the intersection of influencer's, delivery & marketing. 🚀💻
+              Create POD (Proof of delivery) that your customer's can own. 🚀💻
             </p>
           </div>
 
@@ -57,7 +70,7 @@ const Footer: FC = () => {
               rel="noopener noreferrer"
               className="text-gray-400 transition duration-300 hover:text-white"
             >
-              <TikTokOutlined style={{ fontSize: '24px' }} />
+              <TikTokIcon style={{ fontSize: '24px' }} />
             </a>
             <a
               href="https://discord.gg/YEQCwtSHzb"
@@ -87,3 +100,4 @@ const Footer: FC = () => {
 };
 
 export default Footer;
+
