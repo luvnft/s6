@@ -28,10 +28,10 @@ const ProductList: React.FC = () => {
 
       <div data-aos="fade-down">
         <Link to="/" className="mb-4 text-3xl font-bold text-white no-underline">
-          🚀 W3W.delivery Services 🌟
+          🚀 W3W Services 🌟
           <br />
           <span className="text-[15px] italic font-normal">
-            Making deliveries look cool since 2024 😎
+            Cool POD (Proof of Delivery) content 😎
           </span>
         </Link>
       </div>
