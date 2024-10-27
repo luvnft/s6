@@ -69,7 +69,7 @@ export const dummyProducts: IProduct[] = [
     price: Number((100 / conversionRateUSDToSOL).toFixed(2)),
     imageUrl:
       'https://i.imgur.com/b1WP1Fq.png',
-    description: 'Branded Discord channel for ongoing communication with delivery drivers and influencers.',
+    description: 'Branded Discord channel for ongoing communication with delivery drivers.',
     name: 'Branded Discord',
   },
   {
@@ -82,10 +82,10 @@ export const dummyProducts: IProduct[] = [
   },
   {
     id: 10,
-    price: Number((399 / conversionRateUSDToSOL).toFixed(2)),
+    price: Number((0.01 / conversionRateUSDToSOL).toFixed(2)),
     imageUrl:
       'https://i.imgur.com/Vi0ZsI0.png',
-      description: 'Livestream event showcasing the delivery process, enhancing customer engagement and brand visibility.',
+      description: 'Livestream event showcasing a delivery process.',
       name: 'Livestream',
   },
 ];
