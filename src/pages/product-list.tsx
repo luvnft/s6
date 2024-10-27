@@ -27,11 +27,11 @@ const ProductList: React.FC = () => {
       <Panel />
 
       <div data-aos="fade-down">
-        <Link to="/" className="text-white no-underline text-3xl font-bold mb-4">
-          🚀 Exclusive Products 🌟
+        <Link to="/" className="mb-4 text-3xl font-bold text-white no-underline">
+          🚀 W3W.delivery Services 🌟
           <br />
           <span className="text-[15px] italic font-normal">
-            For the cool crypto boys n girls 😎
+            Making deliveries look cool since 2024 😎
           </span>
         </Link>
       </div>
@@ -39,7 +39,7 @@ const ProductList: React.FC = () => {
       <br />
 
       <div
-        className="grid md:grid-cols-4 lg:grid-cols-5 items-center justify-center gap-5 flex-wrap mb-12"
+        className="grid flex-wrap items-center justify-center gap-5 mb-12 md:grid-cols-4 lg:grid-cols-5"
         data-aos="fade-up"
       >
         {dummyProducts.map((product: IProduct) => (
@@ -58,7 +58,7 @@ const ProductList: React.FC = () => {
                 data-aos="flip-left"
               />
               <Text
-                className="text-center text-lg font-bold w-full overflow-hidden text-overflow-ellipsis whitespace-nowrap"
+                className="w-full overflow-hidden text-lg font-bold text-center text-overflow-ellipsis whitespace-nowrap"
                 data-aos="fade-right"
               >
                 {product.name}
