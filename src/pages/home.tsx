@@ -82,13 +82,24 @@ const Home = () => {
           data-aos="fade-up"
           className="max-w-md mb-6 text-sm text-gray-300 sm:max-w-lg sm:text-base md:max-w-2xl md:text-lg"
         >
-          🚚 W3W.delivery has revolutionized the delivery industry by eliminating
-          exploitative pay structures. We offer a flat payout for deliveries within
-          a 10-mile radius, utilizing three-word addresses and engaging social
-          content to enhance local businesses through driver-generated media,
-          powered by the lightning-fast ⚡ and ultra-secure 🔒 Solana Pay.
-          Let's level up your delivery content!📦
-        </p>
+          🚚 W3W.delivery brings transparent pricing and 🌐 fairness to local businesses and drivers! Here’s how it all works:
+
+          1️⃣ Flat Fee: Each non-influencer delivery is set at a simple $33 USD in Solana $SOL. This covers the social media post
+          📲 tagging both the business and @deliv3ry on TikTok, plus Proof of Delivery (POD) 📦, all made easily accessible on our platform!
+
+          2️⃣ Precision Delivery with what3words: Using what3words, each delivery is directed to an exact 3-meter square location
+          🗺️ — no need for guesswork or complex addresses!
+
+          3️⃣ Quick Payouts: Drivers get paid fast, usually within 1-8 hours ⏱️ post-delivery. 💸 All payment details are verified
+          and shared in the W3W.delivery Discord community.
+
+          4️⃣ Solana-Powered Security: Our transactions use Solana Pay 🔒 for lightning-fast ⚡, ultra-secure processing, providing
+          peace of mind for everyone involved.
+
+          5️⃣ Boosting Local Businesses: We help reduce overheads, simplify delivery logistics, and enhance brand reach with unique,
+          driver-generated content 🚀!
+
+          💬 With W3W.delivery, you’re always in the loop ✅ — no hidden fees, just clear, honest service.📦</p>
 
         <Button
           size="large"
