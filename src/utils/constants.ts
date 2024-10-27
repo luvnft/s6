@@ -1,7 +1,7 @@
 import { clusterApiUrl, Connection, Keypair } from '@solana/web3.js';
 import { IProduct } from './types';
 export const WALLET_ADDRESS: string =
-  'F5iFyvKbtXhX8BgHyC9tGAfgDKMagVBuygwsSTcUwQAh';
+  '9MkXqB55qNMrYN9EVcHNHCaAoEtZzvjjoFxjEypCwGJq';
 export const connection = new Connection(clusterApiUrl('devnet'), 'confirmed');
 export const keypair = Keypair.generate();
 export const referencePublicKey = keypair.publicKey;
@@ -82,7 +82,7 @@ export const dummyProducts: IProduct[] = [
   },
   {
     id: 10,
-    price: Number((2 / conversionRateUSDToSOL).toFixed(2)),
+    price: Number((12 / conversionRateUSDToSOL).toFixed(2)),
     imageUrl:
       'https://i.imgur.com/Vi0ZsI0.png',
       description: 'Livestream event showcasing a delivery process.',

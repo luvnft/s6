@@ -48,8 +48,8 @@ const CartPanel: FC = () => {
   const createPayLink = async () => {
     const totalAmount = new BigNumber(totalPrice);
     const recipient = new PublicKey(WALLET_ADDRESS);
-    const label = 'SolanaPay Demo';
-    const messageText = 'Pay for Exclusive Products';
+    const label = 'W3W.delivery Services';
+    const messageText = 'Pay for W3W.delivery services';
     const memo = 'optional-memo';
     const reference = referencePublicKey;
 
@@ -89,7 +89,7 @@ const CartPanel: FC = () => {
                   initial={{ x: -50, opacity: 0 }}
                   animate={{ x: 0, opacity: 1 }}
                   transition={{ duration: 0.3 }}
-                  className="rounded-lg flex items-center justify-between px-4 py-0 border-b border-gray-200"
+                  className="flex items-center justify-between px-4 py-0 border-b border-gray-200 rounded-lg"
                 >
                   <div>
                     <p className="text-lg font-bold">{product.name}</p>
@@ -116,7 +116,7 @@ const CartPanel: FC = () => {
             <Empty
               className="mt-20"
               description={
-                <span className="text-gray-400 text-lg">
+                <span className="text-lg text-gray-400">
                   Your cart is empty. 😔 <br />
                   Time to add some cool items! 💃🕺
                 </span>
@@ -149,7 +149,7 @@ const CartPanel: FC = () => {
           status="success"
           title="🎉 Payment Successful"
           subTitle={
-            <span className="text-gray-400 text-base">
+            <span className="text-base text-gray-400">
               💸 You have successfully paid{' '}
               <b>{totalPrice}</b> for{' '}
               <b>{totalItems} items.</b> Thank you for shopping with us!
