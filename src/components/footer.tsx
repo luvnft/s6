@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import {
-  LinkedinOutlined,
+  TikTokOutlined,
   DiscordOutlined,
   InstagramOutlined,
 } from '@ant-design/icons';
@@ -55,10 +55,10 @@ const Footer: FC = () => {
             </Link>
 
             <Link
-              to="mailto:hahz5d@pm.me"
+              to="/https://tiktok.com/deliv3ry"
               className="text-gray-400 no-underline transition duration-300 hover:text-white"
             >
-              Contact
+              TikTok
             </Link>
           </div>
 
@@ -70,7 +70,7 @@ const Footer: FC = () => {
               rel="noopener noreferrer"
               className="text-gray-400 transition duration-300 hover:text-white"
             >
-              <TikTokIcon style={{ fontSize: '24px' }} />
+              <TikTokOutlined style={{ fontSize: '24px' }} />
             </a>
             <a
               href="https://discord.gg/YEQCwtSHzb"
