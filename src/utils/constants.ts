@@ -82,7 +82,7 @@ export const dummyProducts: IProduct[] = [
   },
   {
     id: 10,
-    price: Number((0.01 / conversionRateUSDToSOL).toFixed(2)),
+    price: Number((0.10 / conversionRateUSDToSOL).toFixed(2)),
     imageUrl:
       'https://i.imgur.com/Vi0ZsI0.png',
       description: 'Livestream event showcasing a delivery process.',
