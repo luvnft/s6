@@ -46,7 +46,7 @@ const Home = () => {
         >
           <p className="text-sm md:text-base">
             Once a service is paid, DM @HAHZNFT in Discord to create your
-            branded Discord channel 12 hours prior to your delivery time. 
+            branded Discord channel 12 hours prior to your delivery time.
           </p>
         </Modal>
       </div>
@@ -59,7 +59,6 @@ const Home = () => {
           >
             W3W.delivery Services
           </h1>
-          </div>
         </div>
 
         <p
@@ -85,7 +84,8 @@ const Home = () => {
           5️⃣ Boosting Local Businesses: We help reduce overheads, simplify delivery logistics, and enhance brand reach with unique,
           driver-generated content 🚀!
 
-          💬 With W3W.delivery, you’re always in the loop ✅ — no hidden fees, just clear, honest service.📦</p>
+          💬 With W3W.delivery, you’re always in the loop ✅ — no hidden fees, just clear, honest service.📦
+        </p>
 
         <Button
           size="large"
