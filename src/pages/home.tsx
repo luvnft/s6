@@ -84,6 +84,8 @@ const Home = () => {
         >
           🚚 W3W.delivery brings transparent pricing and 🌐 fairness to local businesses and drivers! Here’s how it all works:
 
+          🚀 Our influencer delivery ad campaign is structured based on the influencer's following size, with a fee of 11% applied.
+
           1️⃣ Flat Fee: Each non-influencer delivery is set at a simple $33 USD in Solana $SOL. This covers the social media post
           📲 tagging both the business and @deliv3ry on TikTok, plus Proof of Delivery (POD) 📦, all made easily accessible on our platform!
 
