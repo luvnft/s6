@@ -28,7 +28,7 @@ const Home = () => {
 
   return (
     <section
-      className="relative bg-cover bg-center h-screen"
+      className="relative h-screen bg-center bg-cover"
     >
       <div data-aos="zoom-in">
         <Modal
@@ -54,17 +54,17 @@ const Home = () => {
         </Modal>
       </div>
 
-      <div className="container mx-auto h-full flex flex-col justify-center items-center text-center relative z-10 px-6 lg:px-12">
+      <div className="container relative z-10 flex flex-col items-center justify-center h-full px-6 mx-auto text-center lg:px-12">
         <div className="flex items-center justify-center gap-6">
           <h1
             data-aos="fade-right"
-            className="text-white text-5xl md:text-7xl font-extrabold leading-tight mb-4"
+            className="mb-4 text-5xl font-extrabold leading-tight text-white md:text-7xl"
           >
-            Tech Flare Store
+            W3W.delivery Services
           </h1>
           <h1
             data-aos="zoom-in"
-            className="text-white text-5xl md:text-7xl font-extrabold leading-tight mb-4"
+            className="mb-4 text-5xl font-extrabold leading-tight text-white md:text-7xl"
           >
             <span className="text-blue-500">x</span>
           </h1>
@@ -77,7 +77,7 @@ const Home = () => {
               alt="solana logo"
               className="w-[120px] h-[120px] mt-4"
             />
-            <h1 className="text-white text-5xl md:text-7xl font-extrabold leading-tight mb-4">
+            <h1 className="mb-4 text-5xl font-extrabold leading-tight text-white md:text-7xl">
               olana Pay
             </h1>
           </div>
@@ -85,16 +85,19 @@ const Home = () => {
 
         <p
           data-aos="fade-up"
-          className="text-gray-300 text-lg md:text-xl mb-8 max-w-xl"
+          className="max-w-xl mb-8 text-lg text-gray-300 md:text-xl"
         >
-          🚀 Elevate Your Fitness Journey with High-Tech Gear, powered by the
-          lightning-fast ⚡ and ultra-secure 🔒 Solana Pay. Let's level up your
-          game! 🏋️‍♂️💪
+          🚀 W3W.delivery has revolutionized the delivery industry by eliminating
+          exploitative pay structures. We offer a flat payout for deliveries within
+          a 10-mile radius, utilizing three-word addresses and engaging social
+          content to enhance local businesses through driver-generated media.
+          , powered by the lightning-fast ⚡ and ultra-secure 🔒 Solana Pay.
+          Let's level up your delivery content!💪
         </p>
 
         <Button
           size="large"
-          className="px-6 text-lg font-bold transform hover:scale-105 transition-transform duration-300"
+          className="px-6 text-lg font-bold transition-transform duration-300 transform hover:scale-105"
           onClick={showModal}
           data-aos="fade-up"
         >
