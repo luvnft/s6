@@ -45,7 +45,7 @@ export const dummyProducts: IProduct[] = [
     price: Number((1555 / conversionRateUSDToSOL).toFixed(2)),
     imageUrl:
       'https://i.imgur.com/VjowbaV.png',
-    description: 'Monthly package for 25 social POD (proof of delivery) photos and videos showcasing customer interactions or products, shared by drivers on social media and in your branded Discord channel.',
+    description: '25 social POD photos and videos, shared by drivers on social media.',
     name: 'POD AD - Tier 1',
   },
   {
@@ -53,7 +53,7 @@ export const dummyProducts: IProduct[] = [
     price: Number((777 / conversionRateUSDToSOL).toFixed(2)),
     imageUrl:
       'https://i.imgur.com/UZTunK1.png',
-    description: 'Monthly package for 15 social proof of delivery (POD) photos and videos, featuring customer interactions or showcasing the product without customers.',
+    description: '15 social POD photos and videos, shared by drivers on social media.',
     name: 'POD AD - Tier 2',
   },
   {
@@ -61,7 +61,7 @@ export const dummyProducts: IProduct[] = [
     price: Number((555 / conversionRateUSDToSOL).toFixed(2)),
     imageUrl:
       'https://i.imgur.com/Ups3pKj.png',
-    description: 'Monthly package of 5 social POD (proof of delivery) photos and videos showcasing customer interactions or products, shared by drivers on social media and in your branded Discord channel.',
+    description: '5 social POD photos and videos, shared by drivers on social media.',
     name: 'POD AD - Tier 3',
   },
   {
@@ -69,7 +69,7 @@ export const dummyProducts: IProduct[] = [
     price: Number((100 / conversionRateUSDToSOL).toFixed(2)),
     imageUrl:
       'https://i.imgur.com/b1WP1Fq.png',
-    description: 'Branded Discord channel for ongoing communication with delivery drivers and influencers. Facilitates open dialogue and quick response times for delivery needs.',
+    description: 'Branded Discord channel for ongoing communication with delivery drivers and influencers.',
     name: 'Branded Discord',
   },
   {
@@ -77,7 +77,7 @@ export const dummyProducts: IProduct[] = [
     price: Number((249 / conversionRateUSDToSOL).toFixed(2)),
     imageUrl:
       'https://i.imgur.com/x2M37Wt.png',
-    description: 'NFT proof of delivery service airdropped to your wallet upon successful delivery. Enhance your brand\'s transparency and traceability in every transaction.',
+    description: 'NFT proof of delivery service airdropped to your wallet upon successful delivery.',
     name: 'NFT POD',
   },
   {
