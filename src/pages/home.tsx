@@ -32,7 +32,7 @@ const Home = () => {
         <Modal
           title={
             <>
-              <InfoCircleOutlined /> Important Information
+              <InfoCircleOutlined /> Verified Payments
             </>
           }
           visible={isModalVisible}
@@ -45,9 +45,8 @@ const Home = () => {
           ]}
         >
           <p className="text-sm md:text-base">
-            This platform is currently in development. If you're trying out the
-            purchase process, please ensure that your wallet is set to Devnet
-            before scanning to pay for items.
+            Once a service is paid, DM @HAHZNFT in Discord to create your
+            branded Discord channel 12 hours prior to your delivery time. 
           </p>
         </Modal>
       </div>
@@ -60,21 +59,6 @@ const Home = () => {
           >
             W3W.delivery Services
           </h1>
-          <h1
-            data-aos="zoom-in"
-            className="mb-2 text-4xl font-extrabold leading-tight text-white sm:text-5xl md:text-6xl lg:text-7xl"
-          >
-            <span className="text-blue-500">x</span>
-          </h1>
-          <div data-aos="fade-left" className="flex items-center gap-2">
-            <img
-              src="https://cryptologos.cc/logos/solana-sol-logo.png"
-              alt="solana logo"
-              className="w-12 h-12 md:w-20 md:h-20 lg:w-[120px] lg:h-[120px] mt-2"
-            />
-            <h1 className="mb-2 text-4xl font-extrabold leading-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
-              olana Pay
-            </h1>
           </div>
         </div>
 

@@ -55,10 +55,10 @@ const Footer: FC = () => {
             </Link>
 
             <Link
-              to="/https://tiktok.com/deliv3ry"
+              to="mailto:info@arvrtise.com"
               className="text-gray-400 no-underline transition duration-300 hover:text-white"
             >
-              TikTok
+              Contact
             </Link>
           </div>
 
