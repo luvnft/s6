@@ -92,11 +92,11 @@ export const deliveryProducts: IProduct[] = [
     mileRange: 'N/A',
   },
   {
-    id: 9,
-    price: Number((100 / conversionRateUSDToSOL).toFixed(2)), // NFT Proof of Delivery
+    id: 10, // Changed ID to be unique
+    price: Number((100 / conversionRateUSDToSOL).toFixed(2)), // Livestream Event
     imageUrl: 'https://i.imgur.com/Vi0ZsI0.png',
-    description: 'NFT proof of delivery service airdropped to your wallet upon successful delivery. Enhance your brand\'s transparency and traceability in every transaction.',
-    name: 'Livestream event',
+    description: 'Livestream event showcasing the delivery process, enhancing customer engagement and brand visibility.',
+    name: 'Livestream Event',
     serviceArea: 'N/A',
     mileRange: 'N/A',
   },
