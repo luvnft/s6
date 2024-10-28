@@ -66,11 +66,11 @@ export const dummyProducts: IProduct[] = [
   },
   {
     id: 8,
-    price: Number((100 / conversionRateUSDToSOL).toFixed(2)),
+    price: Number((200 / conversionRateUSDToSOL).toFixed(2)),
     imageUrl:
-      'https://i.imgur.com/b1WP1Fq.png',
-    description: 'Branded Discord channel for ongoing communication with delivery drivers.',
-    name: 'Branded Discord',
+      'https://i.imgur.com/qLDDUrV.png',
+    description: 'Every verified Deliv3ry driver will have a TikTok effect used for all proof of @deliv3ry content.',
+    name: 'Driver TikTok ID',
   },
   {
     id: 9,
