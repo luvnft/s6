@@ -13,14 +13,38 @@ html, body {
   font-optical-sizing: auto;
 }
 
-
-
 .dark {
-    background-color: #0E0E0E;
-    color: white !important;
+  background-color: #0E0E0E;
+  color: white !important;
 }
 
 .light {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
+}
+
+/* === PRODUCT CARD FIX === */
+.product-card {
+  @apply flex flex-col justify-between h-full bg-[#111] text-white rounded-2xl p-4 overflow-hidden;
+}
+
+.product-card img {
+  @apply w-full h-28 object-contain mb-3;
+}
+
+.product-card h3 {
+  @apply text-lg font-semibold mb-2;
+}
+
+.product-card p {
+  @apply text-sm text-gray-300;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* limit text lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-card button {
+  @apply bg-white text-black px-4 py-2 mt-4 rounded-lg font-semibold hover:scale-105 transition;
 }
