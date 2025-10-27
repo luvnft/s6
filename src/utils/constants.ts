@@ -19,7 +19,7 @@ export const dummyProducts: IProduct[] = [
     imageUrl: 'https://i.imgur.com/2TzTBBr.png',
     name: 'Influencer D1 — MEGA Drop',
     description:
-      '1M+ follower influencer TikTok delivery with 11-sec Proof-of-Delivery video and brand tag @deliv3ry.',
+      '1M+ follower influencer TikTok delivery featuring an 11-sec on-chain Proof-of-Delivery video.',
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ export const dummyProducts: IProduct[] = [
     imageUrl: 'https://i.imgur.com/sUNx4nU.png',
     name: 'Influencer D2 — MACRO Drop',
     description:
-      '500K–1M follower influencer TikTok delivery with product hand-off and What3Words location tag.',
+      '500K–1M follower influencer TikTok delivery featuring an 11-sec on-chain Proof-of-Delivery video.',
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ export const dummyProducts: IProduct[] = [
     imageUrl: 'https://i.imgur.com/2Rpoahl.png',
     name: 'Influencer D3 — MID Drop',
     description:
-      '100K–500K follower TikTok delivery reel featuring product unboxing and verified @deliv3ry tag.',
+      '100K–500K follower TikTok delivery featuring an 11-sec on-chain Proof-of-Delivery video.',
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ export const dummyProducts: IProduct[] = [
     imageUrl: 'https://i.imgur.com/Yo2nfGR.png',
     name: 'Influencer D4 — LOCAL Drop',
     description:
-      'Local (10K–100K Followers) influencer delivery of a product to your customer with TikTok proof.',
+      'Local (10K–100K Followers) TikTok delivery featuring an 11-sec on-chain Proof-of-Delivery video.',
   },
 {
   id: 5,
