@@ -70,13 +70,13 @@ export const dummyProducts: IProduct[] = [
     '5 blockchain verified TikTok TikTok deliveries for enterprise campaigns.',
 },
   {
-    id: 8,
-    price: Number((777 / conversionRateUSDToSOL).toFixed(2)), // 4 SOL ≈ $795 USD
-    imageUrl: 'https://i.imgur.com/qLDDUrV.png',
-    name: 'TikTok AR Effect',
-    description:
-      'Branded TikTok AR filter logo used by @DELIV3RY drivers.',
-  },
+  id: 8,
+  price: Number((795 / conversionRateUSDToSOL).toFixed(2)), // ≈ 4 SOL ($795 USD)
+  imageUrl: 'https://i.imgur.com/qLDDUrV.png',
+  name: 'UGC Unboxing Reel',
+  description:
+    '11-sec Proof-of-Delivery unboxing reel using your branded TikTok AR effect.',
+},
   {
     id: 9,
     price: Number((999 / conversionRateUSDToSOL).toFixed(2)), // 5 SOL ≈ $995 USD
