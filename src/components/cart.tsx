@@ -48,9 +48,18 @@ const CartPanel: FC = () => {
   const createPayLink = async () => {
     const totalAmount = new BigNumber(totalPrice);
     const recipient = new PublicKey(WALLET_ADDRESS);
-    const label = 'W3W.delivery Services';
-    const messageText = 'Pay for W3W.delivery services';
-    const memo = 'optional-memo';
+    const label = 'DELIV3RY Premium TikTok Service';
+      // 🗺️ Instructions:
+  // After checkout, DM @deliv3ry on TikTok with:
+  // 1️⃣ Your What3Words pickup address (example: ///fresh.mint.laptop)
+  // 2️⃣ Your What3Words drop-off address
+  // 3️⃣ The TikTok @username of who will receive or confirm delivery
+  //
+  // Once both addresses are verified, your delivery is scheduled and
+  // the driver will post an 11-second proof-of-delivery video at the drop-off point.
+  // Payment remains in escrow until @deliv3ry confirms the TikTok post.
+    const messageText = 'DM @deliv3ry your W3W pickup & drop-off for delivery scheduling.';
+    const memo = 'W3W-delivery-coordinates';
     const reference = referencePublicKey;
 
     const url = encodeURL({
