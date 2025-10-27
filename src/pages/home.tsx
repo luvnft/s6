@@ -58,7 +58,7 @@ const Home = () => {
             data-aos="fade-right"
             className="mb-2 text-4xl font-extrabold leading-tight text-white sm:text-5xl md:text-6xl lg:text-7xl"
           >
-            TikTok Premium Delivery 🚚💨
+            ⚡ TikTok Premium Delivery
           </h1>
         </div>
 
