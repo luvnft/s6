@@ -31,7 +31,7 @@ const ProductList: React.FC = () => {
           ⚡ @DELIV3RY
           <br />
           <span className="text-[15px] italic font-normal">
-            😎 TikTok POD (Proof of Delivery) reel delivery campaigns.
+            Donate to your driver with Base, SUI, Bitcoin, or Ethereum using escrow account w3wdelivery.fun 🚀
           </span>
         </Link>
       </div>
