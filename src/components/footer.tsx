@@ -35,7 +35,7 @@ const Footer: FC = () => {
           <div className="mb-6 md:mb-0">
             <h2 className="text-xl font-bold text-white">TikTok @DELIV3RY Services</h2>
             <p className="max-w-md mt-2 text-sm">
-              Watch POD (Proof of delivery) reels. 🚀💻
+              POD (Proof of delivery) reels. 🚀💻
             </p>
           </div>
 
@@ -55,7 +55,7 @@ const Footer: FC = () => {
             </Link>
 
             <Link
-              to="mailto:info@arvrtise.com"
+              to="https://t.me/hahznft"
               className="text-gray-400 no-underline transition duration-300 hover:text-white"
             >
               Contact
