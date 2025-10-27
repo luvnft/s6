@@ -19,7 +19,7 @@ export const dummyProducts: IProduct[] = [
     imageUrl: 'https://i.imgur.com/2TzTBBr.png',
     name: 'Influencer D1 — MEGA Drop',
     description:
-      '1M+ follower influencer TikTok delivery featuring an 11-sec on-chain Proof-of-Delivery video.',
+      '1M+ follower influencer TikTok delivery featuring an 11-sec Proof-of-Delivery video.',
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ export const dummyProducts: IProduct[] = [
     imageUrl: 'https://i.imgur.com/sUNx4nU.png',
     name: 'Influencer D2 — MACRO Drop',
     description:
-      '500K–1M follower influencer TikTok delivery featuring an 11-sec on-chain Proof-of-Delivery video.',
+      '500K–1M follower influencer TikTok delivery featuring an 11-sec Proof-of-Delivery video.',
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ export const dummyProducts: IProduct[] = [
     imageUrl: 'https://i.imgur.com/2Rpoahl.png',
     name: 'Influencer D3 — MID Drop',
     description:
-      '100K–500K follower TikTok delivery featuring an 11-sec on-chain Proof-of-Delivery video.',
+      '100K–500K follower TikTok delivery featuring an 11-sec Proof-of-Delivery video.',
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ export const dummyProducts: IProduct[] = [
     imageUrl: 'https://i.imgur.com/Yo2nfGR.png',
     name: 'Influencer D4 — LOCAL Drop',
     description:
-      'Local (10K–100K Followers) TikTok delivery featuring an 11-sec on-chain Proof-of-Delivery video.',
+      'Local (10K–100K Followers) TikTok delivery featuring an 11-sec Proof-of-Delivery video.',
   },
 {
   id: 5,
@@ -51,7 +51,7 @@ export const dummyProducts: IProduct[] = [
   imageUrl: 'https://i.imgur.com/VjowbaV.png',
   name: 'POD AD1 — Enterprise Vault 25',
   description:
-    '25 blockchain-verified TikTok deliveries with NFT proof airdrops and smart contract tracking for enterprise campaigns.',
+    '25 blockchain-verified TikTok deliveries for enterprise campaigns.',
 },
 {
   id: 6,
@@ -59,7 +59,7 @@ export const dummyProducts: IProduct[] = [
   imageUrl: 'https://i.imgur.com/UZTunK1.png',
   name: 'POD AD2 — Premium Sprint 15',
   description:
-    '15 blockchain-certified Proof-of-Delivery TikTok reels with NFT verification and standard smart contract escrow.',
+    '15 blockchain-certified TikTok deliveries for enterprise campaigns.',
 },
 {
   id: 7,
@@ -67,7 +67,7 @@ export const dummyProducts: IProduct[] = [
   imageUrl: 'https://i.imgur.com/Ups3pKj.png',
   name: 'POD AD3 — Starter Chain 5',
   description:
-    '5 blockchain-authenticated TikTok Proof-of-Delivery reels with NFT proof and basic verification layer.',
+    '5 blockchain-certified TikTok TikTok deliveries for enterprise campaigns.',
 },
   {
     id: 8,
@@ -75,7 +75,7 @@ export const dummyProducts: IProduct[] = [
     imageUrl: 'https://i.imgur.com/qLDDUrV.png',
     name: 'Branded TikTok AR Effect 👻',
     description:
-      'Branded TikTok AR filter used by @deliv3ry drivers in each Proof-of-Delivery post for viral reach.',
+      'Branded TikTok AR filter used by @DELIV3RY drivers.',
   },
   {
     id: 9,
@@ -83,7 +83,7 @@ export const dummyProducts: IProduct[] = [
     imageUrl: 'https://i.imgur.com/x2M37Wt.png',
     name: 'PODROP NFT Campaign 🪙',
     description:
-      'Proof-of-Delivery NFT campaign minting each TikTok delivery as collectible on-chain brand content.',
+      'Proof-of-Delivery tokenized delivery campaign.',
   },
   {
     id: 10,
@@ -91,6 +91,6 @@ export const dummyProducts: IProduct[] = [
     imageUrl: 'https://i.imgur.com/Vi0ZsI0.png',
     name: 'Livestream Delivery Show 🎥',
     description:
-      'Branded TikTok Live delivery event with creator hosting, live audience chat and brand mentions.',
+      'Branded TikTok Live delivery show scheduled and promoted.',
   },
 ];
