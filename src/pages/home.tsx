@@ -13,18 +13,12 @@ const Home = () => {
     AOS.init({ duration: 1000 });
   }, []);
 
-  const showModal = () => {
-    setIsModalVisible(true);
-  };
-
+  const showModal = () => setIsModalVisible(true);
   const handleOk = () => {
     setIsModalVisible(false);
     navigate('/products');
   };
-
-  const handleCancel = () => {
-    setIsModalVisible(false);
-  };
+  const handleCancel = () => setIsModalVisible(false);
 
   return (
     <section className="relative h-screen bg-center bg-cover">
@@ -32,21 +26,28 @@ const Home = () => {
         <Modal
           title={
             <>
-              <InfoCircleOutlined /> Verified Payments
+              <InfoCircleOutlined /> How TikTok Delivery Works
             </>
           }
-          visible={isModalVisible}
+          open={isModalVisible}
           onOk={handleOk}
           onCancel={handleCancel}
           footer={[
             <Button key="proceed" type="primary" onClick={handleOk}>
-              Proceed
+              OK, Got It
             </Button>,
           ]}
         >
           <p className="text-sm md:text-base">
-            Once a service is paid, DM @HAHZNFT in Discord to create your
-            branded Discord channel 12 hours prior to your delivery time.
+            💬 To start a @DELIV3RY order, fill out the TikTok form on the official @deliv3ry page.  
+            You’ll get a quote showing which delivery you’re paying for.  
+            Funds (in $SOL) are held safely in escrow 🔒 until your delivery is confirmed.  
+            <br /><br />
+            📦 The driver must upload a TikTok video at the What3Words (W3W) address listed in the bid, 
+            tagging both the buyer’s @username and @deliv3ry.  
+            Once both confirm in TikTok comments or DM, the driver receives the $SOL airdrop instantly.  
+            <br /><br />
+            🚫 If nothing is delivered, the buyer is refunded automatically.
           </p>
         </Modal>
       </div>
@@ -57,7 +58,7 @@ const Home = () => {
             data-aos="fade-right"
             className="mb-2 text-4xl font-extrabold leading-tight text-white sm:text-5xl md:text-6xl lg:text-7xl"
           >
-            W3W.delivery Services
+            TikTok Premium Delivery 🚚💨
           </h1>
         </div>
 
@@ -65,26 +66,18 @@ const Home = () => {
           data-aos="fade-up"
           className="max-w-md mb-6 text-sm text-gray-300 sm:max-w-lg sm:text-base md:max-w-2xl md:text-lg"
         >
-          🚚 W3W.delivery brings transparent pricing and 🌐 fairness to local businesses and drivers! Here’s how it all works:
-
-          🚀 Our influencer delivery ad campaign is structured based on the influencer's following size, with a fee of 11% applied.
-
-          1️⃣ Flat Fee: Each non-influencer delivery is set at a simple $33 USD in Solana $SOL. This covers the social media post
-          📲 tagging both the business and @deliv3ry on TikTok, plus Proof of Delivery (POD) 📦, all made easily accessible on our platform!
-
-          2️⃣ Precision Delivery with what3words: Using what3words, each delivery is directed to an exact 3-meter square location
-          🗺️ — no need for guesswork or complex addresses!
-
-          3️⃣ Quick Payouts: Drivers get paid fast, usually within 1-8 hours ⏱️ post-delivery. 💸 All payment details are verified
-          and shared in the W3W.delivery Discord community.
-
-          4️⃣ Solana-Powered Security: Our transactions use Solana Pay 🔒 for lightning-fast ⚡, ultra-secure processing, providing
-          peace of mind for everyone involved.
-
-          5️⃣ Boosting Local Businesses: We help reduce overheads, simplify delivery logistics, and enhance brand reach with unique,
-          driver-generated content 🚀!
-
-          💬 With W3W.delivery, you’re always in the loop ✅ — no hidden fees, just clear, honest service.📦
+          @DELIV3RY is the world’s first TikTok-powered delivery service.  
+          Drivers post <strong>video proof of delivery</strong> 🎥 at the What3Words location 🗺️ from the bid.  
+          Once both the buyer’s TikTok @username and @deliv3ry confirm the video,  
+          the $SOL payment held in escrow is released instantly 💸.  
+          <br /><br />
+          🔹 Fill out the TikTok form on @deliv3ry to get a quote  
+          🔹 Choose your delivery & pay in $SOL  
+          🔹 Driver records proof-of-delivery video  
+          🔹 Payment unlocks when verified by both sides  
+          🔹 Refunds happen automatically if no delivery occurs  
+          <br /><br />
+          Transparent. Fast. Verified by TikTok & powered by Solana ⚡
         </p>
 
         <Button
@@ -93,7 +86,7 @@ const Home = () => {
           onClick={showModal}
           data-aos="fade-up"
         >
-          Shop Now
+          How It Works
         </Button>
       </div>
     </section>
