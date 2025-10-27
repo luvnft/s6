@@ -33,9 +33,9 @@ const Footer: FC = () => {
         <div className="flex flex-col items-center justify-between md:flex-row">
           {/* Brand and Description */}
           <div className="mb-6 md:mb-0">
-            <h2 className="text-xl font-bold text-white">W3W.delivery Services</h2>
+            <h2 className="text-xl font-bold text-white">TikTok @DELIV3RY Services</h2>
             <p className="max-w-md mt-2 text-sm">
-              Create POD (Proof of delivery) that your customer's can own. 🚀💻
+              Watch POD (Proof of delivery) reels. 🚀💻
             </p>
           </div>
 
@@ -51,7 +51,7 @@ const Footer: FC = () => {
               to="/https://w3w.delivery"
               className="text-gray-400 no-underline transition duration-300 hover:text-white"
             >
-              W3W.delivery
+              @DELIV3RY
             </Link>
 
             <Link
@@ -92,7 +92,7 @@ const Footer: FC = () => {
         </div>
         {/* Footer Bottom */}
         <div className="mt-6 text-sm text-center text-gray-500">
-          &copy; 2024 W3W.delivery services. <br /> All rights reserved.
+          &copy; 2025 DELIVERY.HAHZ.LIVE donation delivery services. <br /> All rights reserved.
         </div>
       </div>
     </motion.footer>
